@@ -102,3 +102,21 @@ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
 sudo apt-get install -y build-essential
 ```
+
+## bitcoin core
+
+- https://github.com/bitcoin/bitcoin/blob/master/doc/build-unix.md
+- https://github.com/bitcoin/bitcoin/releases
+
+```
+sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils python3
+sudo apt-get install libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev 
+wget https://github.com/bitcoin/bitcoin/archive/v0.15.0rc3.tar.gz
+tar -xvf v0.15.0rc3.tar.gz
+cd bitcoin-0.15.0rc3/
+./autogen.sh
+./configure --help
+./configure --prefix=$HOME --disable-wallet
+make -j2
+make install
+```
