@@ -59,11 +59,6 @@ echo "set -x TERMINAL /usr/bin/stterm" >> ~/.config/fish/config.fish
 sudo apt-get install git
 ```
 
-## xclip
-```
-sudo apt-get install xclip
-```
-
 ## new ssh key
 ```
 ssh-keygen -t rsa -b 4096 -C "fabricio@fabricio.org"
@@ -75,7 +70,7 @@ xclip -sel ~/.ssh/id_rsa.pub
 
 ## vim, vim plug, mnmo nvim config
 ```
-sudo apt-get install vim silversearcher-ag
+sudo apt-get install vim-gtk silversearcher-ag
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 mkdir mnmo; cd mnmo
