@@ -103,11 +103,18 @@ sudo apt-get install -y nodejs
 sudo apt-get install -y build-essential
 ```
 
+## tor
+```
+sudo apt-get install tor
+```
+
 ## bitcoin core
 
 - https://github.com/bitcoin/bitcoin/blob/master/doc/build-unix.md
 - https://github.com/bitcoin/bitcoin/releases
+- https://github.com/bitcoin/bitcoin/blob/master/doc/tor.md
 
+### build
 ```
 sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils python3
 sudo apt-get install libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev 
@@ -119,4 +126,18 @@ cd bitcoin-0.15.0rc3/
 ./configure --prefix=$HOME --disable-wallet
 make -j2
 make install
+cd ~
+./bin/bitcoind --daemon
+./bin/bitcoin-cli stop
+tail -f .bitcoin/debug.log
+vim ./.bitcoin/bitcoin.conf
 ```
+
+    daemon=1
+    prune=5000
+
+### bootstrap
+
+    blocksonly=1
+    
+### run
