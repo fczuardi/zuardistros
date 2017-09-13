@@ -157,3 +157,17 @@ vim ./.bitcoin/bitcoin.conf
 
     blocksonly=0
     debug=tor
+
+### auto restart
+
+- https://github.com/bitcoin/bitcoin/tree/master/contrib/init
+
+```
+wget https://raw.githubusercontent.com/bitcoin/bitcoin/master/contrib/init/bitcoind.service
+vim bitcoid.service
+sudo cp bitcoind.service /lib/systemd/system/.
+sudo chmod 644 /lib/systemd/system/bitcoind.service
+sudo systemctl daemon-reload
+sudo systemctl enable bitcoind.service
+sudo systemctl start bitcoind.service
+```
