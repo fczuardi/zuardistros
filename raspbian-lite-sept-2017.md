@@ -106,6 +106,17 @@ sudo apt-get install -y build-essential
 ## tor
 ```
 sudo apt-get install tor
+sudo vim /usr/share/tor/tor-service-defaults-torrc
+```
+
+    ControlPort 9051
+    CookieAuthentication 1
+    CookieAuthFileGroupReadable 1
+
+```
+sudo systemctl restart tor
+sudo journalctl -f
+sudo usermod -a -G debian-tor <bitcoindusername>
 ```
 
 ## bitcoin core
@@ -113,6 +124,8 @@ sudo apt-get install tor
 - https://github.com/bitcoin/bitcoin/blob/master/doc/build-unix.md
 - https://github.com/bitcoin/bitcoin/releases
 - https://github.com/bitcoin/bitcoin/blob/master/doc/tor.md
+- https://medium.com/@lopp/how-to-run-bitcoin-as-a-tor-hidden-service-on-ubuntu-cff52d543756
+
 
 ### build
 ```
@@ -141,3 +154,6 @@ vim ./.bitcoin/bitcoin.conf
     blocksonly=1
     
 ### run
+
+    blocksonly=0
+    debug=tor
