@@ -171,3 +171,22 @@ sudo systemctl daemon-reload
 sudo systemctl enable bitcoind.service
 sudo systemctl start bitcoind.service
 ```
+
+### rpc
+
+```
+wget https://raw.githubusercontent.com/bitcoin/bitcoin/master/share/rpcuser/rpcuser.py
+python rpcuser.py <rpcusername>
+# copy the auth line on he bitcoin.conf and the password on the software that will access the rpc server
+vim .bitcoin/bitcoin.conf
+```
+
+    rpcallowip=192.168.0.0/16
+    rpcauth=<rpcusername>:....
+
+#### samourai wallet trusted node setup
+
+ip: 192.160...
+port: 8332
+user: rpcusername
+password: <copied from python script output>
