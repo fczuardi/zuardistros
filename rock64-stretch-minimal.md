@@ -7,6 +7,9 @@
 ## Image burner (mac OSX)
 - https://github.com/pine64dev/PINE64-Installer/blob/master/README.md
 
+## Missing Basics
+- ``sudo apt install man less``
+
 ## First boot
  - ``passwd``
  - connected to ethernet cable
