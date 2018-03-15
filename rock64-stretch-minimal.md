@@ -79,6 +79,13 @@ mode hide
 
 
 -----
+## Workarounds
+
+### annoying up / down message
+
+- https://github.com/ayufan-rock64/linux-build/issues/121
+
+-----
 
 ## Wifi adapter
 - ``sudo apt install firmware-misc-nonfree``
