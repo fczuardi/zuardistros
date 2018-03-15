@@ -16,10 +16,39 @@
  - ``sudo apt-get update -y``
  - ``sudo apt-get install linux-rock64``
 
-### Fish shell
+## Fish shell
  - ``sudo apt install fish``
  - ``sudo ln -s /usr/bin/python3 /usr/local/bin/python``
  - ``fish``
+ 
+## XServer
+ - ``sudo apt install xorg xserver-xorg xserver-xorg-video-armsoc xinit``
+ - duvida: ``xcompmgr``???
+ 
+## Firefox
+  - ``sudo apt install firefox-esr``
+
+### Launch firefox without window manager
+  - ``startx firefox``
+
+## i3-wm
+  - ``sudo apt install i3``
+
+### i3 config
+  - ``vim ~/.config/i3/config``
+  - remove exit confirmation
+  - ``vim ~/.xinitrc``
+```
+#!/bin/sh
+i3
+```
+
+#### use i3 to autolaunch a firefox browser in fullscreen 
+- ``vim ~/.config/i3/config``
+```
+for_window [class="Firefox"] fullscreen enable
+```
+
 
 
  
