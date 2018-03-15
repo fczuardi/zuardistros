@@ -26,6 +26,19 @@
  - ``sudo apt install xorg xserver-xorg xserver-xorg-video-armsoc xinit``
  - duvida: ``xcompmgr``???
  
+### Config for kiosk
+```
+xset s off
+xset -dpms
+xset s noblank
+```
+ 
+## Chrome
+ - ``sudo apt install chromium``
+ 
+### Chrome kiosk
+- ``chromium --kiosk --incognito https://get.webgl.org``
+
 ## Firefox
   - ``sudo apt install firefox-esr``
 
@@ -69,6 +82,8 @@ mode hide
 
 ``startx -- -nocursor``
 
+## Wifi adapter
+``sudo apt install firmware-misc-nonfree``
 
  
  
