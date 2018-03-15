@@ -17,11 +17,6 @@
  - ``sudo apt install linux-rock64``
  - ``sudo apt upgrade``
 
-## Fish shell
- - ``sudo apt install fish``
- - ``sudo ln -s /usr/bin/python3 /usr/local/bin/python``
- - ``fish``
- 
 ## XServer
  - ``sudo apt install xorg xserver-xorg xserver-xorg-video-armsoc xinit``
  - duvida: ``xcompmgr``???
@@ -82,8 +77,15 @@ mode hide
 
 ``startx -- -nocursor``
 
+
+-----
+
 ## Wifi adapter
 ``sudo apt install firmware-misc-nonfree``
-
+ 
+## Fish shell
+ - ``sudo apt install fish``
+ - ``sudo ln -s /usr/bin/python3 /usr/local/bin/python``
+ - ``fish``
  
  
