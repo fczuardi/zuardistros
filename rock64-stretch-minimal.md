@@ -17,9 +17,9 @@
  - ``sudo apt-get install linux-rock64``
 
 ### Fish shell
- - sudo apt install fish
+ - ``sudo apt install fish``
  - ``sudo ln -s /usr/bin/python3 /usr/local/bin/python``
- - fish
+ - ``fish``
 
 
  
