@@ -13,8 +13,9 @@
 ## First boot
  - ``passwd``
  - connected to ethernet cable
- - ``sudo apt-get update -y``
- - ``sudo apt-get install linux-rock64``
+ - ``sudo apt update -y``
+ - ``sudo apt install linux-rock64``
+ - ``sudo apt upgrade``
 
 ## Fish shell
  - ``sudo apt install fish``
@@ -29,7 +30,13 @@
   - ``sudo apt install firefox-esr``
 
 ### Launch firefox without window manager
-  - ``startx firefox``
+  - ``startx firefox && reset``
+ 
+#### Increase firefox window dimensions
+- ``vim .mozilla/firefox/786..default/xulstore.json``
+```
+{"chrome://browser/content/browser.xul": {"main-window": {"width": 1920, "height": 1080}}
+```
 
 ## i3-wm
   - ``sudo apt install i3``
@@ -47,8 +54,20 @@ i3
 - ``vim ~/.config/i3/config``
 ```
 for_window [class="Firefox"] fullscreen enable
+
+exec "firefox --private-window https://get.webgl.org"
 ```
 
+### hide i3 bar
+```
+bar {
+mode hide
+}
+```
+
+### startx without cursor
+
+``startx -- -nocursor``
 
 
  
