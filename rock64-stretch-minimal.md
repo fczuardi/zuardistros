@@ -81,7 +81,8 @@ mode hide
 -----
 
 ## Wifi adapter
-``sudo apt install firmware-misc-nonfree``
+- ``sudo apt install firmware-misc-nonfree``
+- [WIP] https://wiki.debian.org/WiFi/HowToUse
  
 ## Fish shell
  - ``sudo apt install fish``
