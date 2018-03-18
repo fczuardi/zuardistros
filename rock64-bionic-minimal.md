@@ -41,12 +41,6 @@ sudo apt install ffmpeg mpv
 rkmpv video1.mkv
 ```
 
-## Audio
-```
-sudo apt install pulseaudio
-sudo sed -i 's/load-module module-udev-detect$/& tsched=0/g' /etc/pulse/default.pa
-```
-
 # Desktop
 
 ## Xorg
@@ -93,6 +87,13 @@ sudo apt install firefox
 ```
 security.webauth.u2f;true
 ```
+
+#### Audio on Firefox Youtube (Pulseaudio)
+```
+sudo apt install pulseaudio
+sudo sed -i 's/load-module module-udev-detect$/& tsched=0/g' /etc/pulse/default.pa
+```
+
 ### chromium-browser
 - chrome:flags
 ```
