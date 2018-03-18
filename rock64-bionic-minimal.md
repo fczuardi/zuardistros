@@ -57,6 +57,9 @@ i3
 - firefox
 - chromium-browser
 
+## Password Manager
+- keepassxc
+
 ## Wayland + Weston
 
 https://wiki.archlinux.org/index.php/wayland
