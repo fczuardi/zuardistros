@@ -61,6 +61,12 @@ bindsym $mod+Return exec "stterm -e fish"
 bindsym $mod+Shift+e exec "i3-msg exit"
 ```
 
+## time zone
+```
+sudo dpkg-reconfigure tzdata
+```
+
+
 ## Browsers
 ### firefox
 - about:config
