@@ -63,7 +63,10 @@ bindsym $mod+Shift+e exec "i3-msg exit"
 ```
 sudo dpkg-reconfigure tzdata
 ```
-
+## keyboard compose key (for accents)
+``
+sudo dpkg-reconfigure keyboard-configuration
+``
 
 ## Browsers
 ### firefox
