@@ -54,8 +54,15 @@ i3
 ```
 
 ## Browsers
-- firefox
-- chromium-browser
+### firefox
+- about:config
+```
+security.webauth.u2f;true
+```
+### chromium-browser
+- chrome:flags
+```
+```
 
 ## Password Manager
 - keepassxc
