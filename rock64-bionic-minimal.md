@@ -94,6 +94,9 @@ mkdir gdrive
 google-drive-ocamlfuse gdrive
 ```
 
+---
+# Others
+
 ## Wayland + Weston
 
 https://wiki.archlinux.org/index.php/wayland
