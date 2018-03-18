@@ -53,25 +53,16 @@ vim .xinitrc
 i3
 ```
 
-## Cloud Storage
-- https://github.com/astrada/google-drive-ocamlfuse
-
-```
-sudo apt install fuse
-sudo add-apt-repository ppa:alessandro-strada/ppa
-sudo apt update
-sudo apt install google-drive-ocamlfuse
-google-drive-ocamlfuse
-mkdir gdrive
-google-drive-ocamlfuse gdrive
-```
-
 ## Browsers
 - firefox
 - chromium-browser
 
 ## Password Manager
 - keepassxc
+  - https://launchpad.net/~phoerious/+archive/ubuntu/keepassxc
+  - https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/
+  - https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk
+  
 ```
 sudo add-apt-repository ppa:phoerious/keepassxc
 sudo apt update
@@ -87,6 +78,19 @@ apt install weston
 weston-launch
 #ctr+alt+backspace
 apt install xwayland
+```
+
+## Cloud Storage
+- https://github.com/astrada/google-drive-ocamlfuse
+
+```
+sudo apt install fuse
+sudo add-apt-repository ppa:alessandro-strada/ppa
+sudo apt update
+sudo apt install google-drive-ocamlfuse
+google-drive-ocamlfuse
+mkdir gdrive
+google-drive-ocamlfuse gdrive
 ```
 
 
