@@ -33,7 +33,7 @@ fish
 - https://kodi.wiki/view/Samples
 
 ```
-sudo apt install libmali-rk-utgard-450-r7p0 libmali-rk-utgard-450-r7p0-gbm 
+sudo apt install libmali-rk-utgard-450-r7p0 libmali-rk-utgard-450-r7p0-gbm libdrm-rockchip1 gstreamer1.0-rockchip1
 sudo apt edit-sources
 # duplicate bionic line replacing bionic with artful, see https://github.com/ayufan-rock64/linux-build/issues/139
 sudo apt update
@@ -41,12 +41,18 @@ sudo apt install ffmpeg mpv
 rkmpv video1.mkv
 ```
 
+## Audio
+```
+sudo apt install pulseaudio
+sudo sed -i 's/load-module module-udev-detect$/& tsched=0/g' /etc/pulse/default.pa
+```
+
 # Desktop
 
 ## Xorg
 
 ```
-sudo apt install xorg
+sudo apt install xorg mesa-utils-extra
 # commented while the invisible mouse is happening
 # see https://github.com/rockchip-linux/xserver/issues/6
 # sudo apt install xserver-xorg-video-armsoc7p0
@@ -54,7 +60,7 @@ sudo apt install xorg
 
 ## i3wm 
 ```
-sudo apt install i3 stterm suckless-tools i3status dunst
+sudo apt install i3 stterm suckless-tools i3status
 ```
 - .xinitrc
 ```
@@ -79,6 +85,10 @@ sudo dpkg-reconfigure keyboard-configuration
 
 ## Browsers
 ### firefox
+```
+sudo apt install firefox
+```
+
 - about:config
 ```
 security.webauth.u2f;true
