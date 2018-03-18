@@ -26,7 +26,7 @@ fish
 - https://kodi.wiki/view/Samples
 
 ```
-sudo apt install libmali-rk-utgard-450-r7p0
+sudo apt install libmali-rk-utgard-450-r7p0 libmali-rk-utgard-450-r7p0-gbm 
 sudo apt edit-sources
 # duplicate bionic line replacing bionic with artful, see https://github.com/ayufan-rock64/linux-build/issues/139
 sudo apt update
@@ -40,6 +40,9 @@ rkmpv video1.mkv
 
 ```
 sudo apt install xorg
+# commented while the invisible mouse is happening
+# see https://github.com/rockchip-linux/xserver/issues/6
+# sudo apt install xserver-xorg-video-armsoc7p0
 ```
 
 ## i3wm 
