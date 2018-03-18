@@ -39,12 +39,12 @@ rkmpv video1.mkv
 ## Xorg
 
 ```
-sudo apt install xserver-xorg
+sudo apt install xorg
 ```
 
 ## i3wm 
 ```
-sudo apt install i3 stterm dmenu
+sudo apt install i3 stterm suckless-tools i3status dunst
 vim .xinitrc
 ```
 
