@@ -45,12 +45,17 @@ sudo apt install xorg
 ## i3wm 
 ```
 sudo apt install i3 stterm suckless-tools i3status dunst
-vim .xinitrc
 ```
-
+- .xinitrc
 ```
 #!/bin/sh
 i3
+```
+
+- .config/i3/config
+```
+bindsym $mod+Return exec "stterm -e fish"
+bindsym $mod+Shift+e exec "i3-msg exit"
 ```
 
 ## Browsers
