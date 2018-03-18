@@ -9,9 +9,14 @@
 ## first boot
 ```
 passwd
-sudo su
-apt search libmali 3328
-apt install libmali-rk-utgard-450-r7p0
+```
+
+## Fish shell
+```
+sudo apt install fish
+which python
+sudo ln -s /usr/bin/python3 /usr/bin/python
+fish
 ```
 
 ## Video Acceleration
@@ -19,11 +24,11 @@ apt install libmali-rk-utgard-450-r7p0
 - https://kodi.wiki/view/Samples
 
 ```
-# wget some video files
-apt edit-sources
+sudo apt install libmali-rk-utgard-450-r7p0
+sudo apt edit-sources
 # duplicate bionic line replacing bionic with artful, see https://github.com/ayufan-rock64/linux-build/issues/139
-apt update
-apt install ffmpeg mpv
+sudo apt update
+sudo apt install ffmpeg mpv
 rkmpv video1.mkv
 ```
 
@@ -31,6 +36,36 @@ rkmpv video1.mkv
 
 # Desktop
 
+## Xorg
+
+```
+sudo apt install xserver-xorg
+```
+
+## i3wm 
+```
+sudo apt install i3 stterm dmenu
+vim .xinitrc
 ```
 
 ```
+#!/bin/sh
+i3
+```
+
+## Browsers
+- firefox
+- chromium-browser
+
+## Wayland + Weston
+
+https://wiki.archlinux.org/index.php/wayland
+
+```
+apt install weston
+weston-launch
+#ctr+alt+backspace
+apt install xwayland
+```
+
+
