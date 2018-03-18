@@ -53,12 +53,30 @@ vim .xinitrc
 i3
 ```
 
+## Cloud Storage
+- https://github.com/astrada/google-drive-ocamlfuse
+
+```
+sudo apt install fuse
+sudo add-apt-repository ppa:alessandro-strada/ppa
+sudo apt update
+sudo apt install google-drive-ocamlfuse
+google-drive-ocamlfuse
+mkdir gdrive
+google-drive-ocamlfuse gdrive
+```
+
 ## Browsers
 - firefox
 - chromium-browser
 
 ## Password Manager
 - keepassxc
+```
+sudo add-apt-repository ppa:phoerious/keepassxc
+sudo apt update
+sudo apt install keepassxc
+```
 
 ## Wayland + Weston
 
