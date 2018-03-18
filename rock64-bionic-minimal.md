@@ -81,17 +81,6 @@ sudo apt update
 sudo apt install keepassxc
 ```
 
-## Wayland + Weston
-
-https://wiki.archlinux.org/index.php/wayland
-
-```
-apt install weston
-weston-launch
-#ctr+alt+backspace
-apt install xwayland
-```
-
 ## Cloud Storage
 - https://github.com/astrada/google-drive-ocamlfuse
 
@@ -103,6 +92,17 @@ sudo apt install google-drive-ocamlfuse
 google-drive-ocamlfuse
 mkdir gdrive
 google-drive-ocamlfuse gdrive
+```
+
+## Wayland + Weston
+
+https://wiki.archlinux.org/index.php/wayland
+
+```
+apt install weston
+weston-launch
+#ctr+alt+backspace
+apt install xwayland
 ```
 
 
