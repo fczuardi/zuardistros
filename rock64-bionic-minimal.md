@@ -1,3 +1,5 @@
+#Base
+
 ## Base Image
 - https://github.com/ayufan-rock64/linux-build/releases/tag/0.6.25
   - https://github.com/ayufan-rock64/linux-build/releases/download/0.6.25/bionic-minimal-rock64-0.6.25-193-arm64.img.xz
@@ -31,8 +33,6 @@ sudo apt update
 sudo apt install ffmpeg mpv
 rkmpv video1.mkv
 ```
-
---- 
 
 # Desktop
 
@@ -94,7 +94,10 @@ mkdir gdrive
 google-drive-ocamlfuse gdrive
 ```
 
----
+# Dev
+
+## vim
+
 # Others
 
 ## Wayland + Weston
