@@ -13,6 +13,15 @@
 passwd
 ```
 
+## another sudo user
+```
+sudo adduser <username>
+sudo visudo
+```
+
+    username     ALL=(ALL:ALL) NOPASSWD:ALL
+
+
 ## Fish shell
 ```
 sudo apt install fish
