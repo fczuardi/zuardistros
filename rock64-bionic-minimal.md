@@ -16,8 +16,6 @@ passwd
 ## Fish shell
 ```
 sudo apt install fish
-which python
-sudo ln -s /usr/bin/python3 /usr/bin/python
 fish
 ```
 
