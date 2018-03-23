@@ -92,6 +92,8 @@ security.webauth.u2f;true
 ```
 sudo apt install pulseaudio
 sudo sed -i 's/load-module module-udev-detect$/& tsched=0/g' /etc/pulse/default.pa
+pulsemixer 
+# F3 Cards, Stereo Output on the card with input+ output 
 ```
 
 ### chromium-browser
