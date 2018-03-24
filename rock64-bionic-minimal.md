@@ -21,7 +21,6 @@ sudo visudo
 
     username     ALL=(ALL:ALL) NOPASSWD:ALL
 
-
 ## Fish shell
 ```
 sudo apt install fish
@@ -61,8 +60,7 @@ i3
 
 - .config/i3/config
 ```
-bindsym $mod+Return exec "stterm -e fish"
-bindsym $mod+Shift+e exec "i3-msg exit"
+wget -O ~/.config/i3/config https://raw.githubusercontent.com/fczuardi/dotfiles/master/.i3/config
 ```
 
 ## time zone
@@ -87,7 +85,7 @@ security.webauth.u2f;true
 
 #### Audio on Firefox Youtube (Pulseaudio)
 ```
-sudo apt install pulseaudio
+sudo apt install pulseaudio pulsemixer
 sudo sed -i 's/load-module module-udev-detect$/& tsched=0/g' /etc/pulse/default.pa
 pulsemixer 
 # F3 Cards, Stereo Output on the card with input+ output 
@@ -125,7 +123,24 @@ google-drive-ocamlfuse gdrive
 
 # Dev
 
+## Github SSH key
+
+- https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+```
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+# bash
+# eval "$(ssh-agent -s)"
+# fish
+eval (ssh-agent -c)
+ssh-add
+```
+
 ## vim
+```
+# to have +clipboard and +xterm_clipboard
+sudo apt install vim-gnome
+wget -O ~/.vimrc https://raw.githubusercontent.com/fczuardi/dotfiles/master/.vimrc
+```
 
 # Others
 
@@ -144,16 +159,3 @@ apt install xwayland
 
 ------
 
-## Github
-
-- https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
-```
-ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-bash
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_rsa
-exit
-
-
-
-```
