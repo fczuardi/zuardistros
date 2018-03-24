@@ -57,15 +57,14 @@ sudo apt install compton
 sudo apt install i3 stterm suckless-tools i3status
 ```
 
-- .xinitrc
-```
-#!/bin/sh
-i3
-```
-
 - .config/i3/config
 ```
 wget -O ~/.config/i3/config https://raw.githubusercontent.com/fczuardi/dotfiles/master/.i3/config
+```
+
+## xinit
+```
+wget -O ~/.xinitrc https://raw.githubusercontent.com/fczuardi/dotfiles/master/.xinitrc
 ```
 
 ## time zone
