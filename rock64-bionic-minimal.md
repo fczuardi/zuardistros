@@ -130,6 +130,13 @@ google-drive-ocamlfuse
 mkdir gdrive
 google-drive-ocamlfuse gdrive
 ```
+## Instant Messaging
+
+### Telegram
+
+```
+sudo apt install telegram-desktop
+```
 
 # Dev
 
@@ -147,6 +154,9 @@ ssh-add
 
 ## vim
 ```
+# to use silver searcher ag instead of grep
+sudo apt install silvershearcher-ag
+
 # to have +clipboard and +xterm_clipboard
 sudo apt install vim-gnome
 wget -O ~/.vimrc https://raw.githubusercontent.com/fczuardi/dotfiles/master/.vimrc
