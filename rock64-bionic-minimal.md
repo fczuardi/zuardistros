@@ -95,6 +95,12 @@ pulsemixer
 # F3 Cards, Stereo Output on the card with input+ output 
 ```
 
+#### Addons
+- uMatrix
+  - https://github.com/gorhill/uMatrix
+- keepassxc
+  - https://github.com/keepassxreboot/keepassxc-browser
+
 ### chromium-browser
 - chrome:flags
 ```
