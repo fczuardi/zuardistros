@@ -43,15 +43,20 @@ rkmpv video1.mkv
 
 ```
 sudo apt install xorg mesa-utils-extra
-# commented while the invisible mouse is happening
-# see https://github.com/rockchip-linux/xserver/issues/6
-# sudo apt install xserver-xorg-video-armsoc7p0
+
+# I am not super convinced that compositing makes
+# much difference on i3, but it does look like
+# some scrolling flickering on firefox gets better
+# when using a compositor
+# https://wiki.archlinux.org/index.php/Compton
+sudo apt install compton
 ```
 
 ## i3wm 
 ```
 sudo apt install i3 stterm suckless-tools i3status
 ```
+
 - .xinitrc
 ```
 #!/bin/sh
