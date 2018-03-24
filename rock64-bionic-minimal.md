@@ -34,9 +34,6 @@ fish
 
 ```
 sudo apt install libmali-rk-utgard-450-r7p0 libmali-rk-utgard-450-r7p0-gbm libdrm-rockchip1 gstreamer1.0-rockchip1
-sudo apt edit-sources
-# duplicate bionic line replacing bionic with artful, see https://github.com/ayufan-rock64/linux-build/issues/139
-sudo apt update
 sudo apt install ffmpeg mpv
 rkmpv video1.mkv
 ```
