@@ -162,6 +162,31 @@ sudo apt install vim-gnome
 wget -O ~/.vimrc https://raw.githubusercontent.com/fczuardi/dotfiles/master/.vimrc
 ```
 
+## node js
+
+### nvm
+```
+bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
+source .bashrc
+nvm ls-remote
+nvm install v9.9.0
+nvm use --delete-prefix v9.9.0
+nvm ls
+```
+
+### fundle + bass + nvm
+- https://github.com/tuvistavie/fundle
+- https://github.com/edc/bass
+- https://github.com/creationix/nvm/issues/303#issuecomment-121086278
+```
+curl -sfL https://git.io/fundle-install | fish
+exit
+fish
+wget -O ~/.config/fish/config.fish https://raw.githubusercontent.com/fczuardi/dotfiles/master/.config/fish/config.fish
+fundle install
+```
+
 # Others
 
 ## Wayland + Weston
