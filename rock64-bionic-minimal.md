@@ -159,6 +159,11 @@ sudo apt install silvershearcher-ag
 
 # to have +clipboard and +xterm_clipboard
 sudo apt install vim-gnome
+
+# to have a place where to keep undo history
+mkdir -p ~/.vim/undo
+
+# load a good config
 wget -O ~/.vimrc https://raw.githubusercontent.com/fczuardi/dotfiles/master/.vimrc
 ```
 
