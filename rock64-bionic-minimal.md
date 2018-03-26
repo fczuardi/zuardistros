@@ -67,6 +67,11 @@ wget -O ~/.config/i3/config https://raw.githubusercontent.com/fczuardi/dotfiles/
 wget -O ~/.xinitrc https://raw.githubusercontent.com/fczuardi/dotfiles/master/.xinitrc
 ```
 
+## wifi
+```
+sudo apt install wicd wicd-curses
+```
+
 ## time zone
 ```
 sudo dpkg-reconfigure tzdata
