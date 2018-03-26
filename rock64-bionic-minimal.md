@@ -25,6 +25,8 @@ sudo visudo
 ```
 sudo apt install fish
 fish
+# prompt and colors
+fish_config
 ```
 
 ## Video Acceleration
