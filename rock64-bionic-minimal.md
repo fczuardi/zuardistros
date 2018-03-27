@@ -107,6 +107,9 @@ pulsemixer
   - https://github.com/gorhill/uMatrix
 - keepassxc
   - https://github.com/keepassxreboot/keepassxc-browser
+- React dev tools
+  - https://addons.mozilla.org/en-US/firefox/addon/react-devtools/
+  - https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
 
 ### chromium-browser
 - chrome:flags
