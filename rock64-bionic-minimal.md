@@ -199,6 +199,22 @@ wget -O ~/.config/fish/config.fish https://raw.githubusercontent.com/fczuardi/do
 fundle install
 ```
 
+### watchman for jest --watch
+- https://github.com/facebook/jest/issues/3254#issuecomment-297214395
+
+```
+sudo apt install autoconf automake build-essential python-dev python3-dev libtool libssl-dev pkg-config
+git clone https://github.com/facebook/watchman.git
+cd watchman
+./autogen.sh
+./configure --enable-lenient
+make
+sudo make install
+
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf
+sudo sysctl -p
+```
+
 # Others
 
 ## Wayland + Weston
