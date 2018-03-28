@@ -166,6 +166,12 @@ google-drive-ocamlfuse gdrive
 sudo apt install telegram-desktop
 ```
 
+### Slack
+- use website
+
+### Discord
+- use the website (deb file dont work on arm64)
+
 # Dev
 
 ## Github SSH key
