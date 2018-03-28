@@ -109,6 +109,7 @@ sudo apt install firefox
 - about:config
 ```
 security.webauth.u2f;true
+extensions.pocket.enabled;false
 ```
 
 #### Audio on Firefox Youtube (Pulseaudio)
