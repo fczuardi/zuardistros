@@ -215,6 +215,9 @@ sudo apt install vim-gnome
 # to have a place where to keep undo history
 mkdir -p ~/.vim/undo
 
+# to have a place where to keep .swp files
+mkdir -p ~/.vim/tmp
+
 # to use plugins
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
