@@ -81,6 +81,24 @@ Based on libvte, more batteries included (scrollback and Ctrl++ to increase font
 sudo apt install sakura
 ```
 
+## terminals with ligature font support
+
+### pangoterm
+Looks lightweight, the ligature is not rendered when you are typing.
+```
+sudo apt install pangoterm
+```
+
+### qterminal
+Not as performant, comes with a lot of GUI bloat, renders ligatures fine
+```
+sudo apt install qterminal
+```
+
+### others
+- kitty - you have to compile from source, dependencies conflict with the custom rk drivers, very slow, not worthy
+
+
 ## xinit
 ```
 wget -O ~/.xinitrc https://raw.githubusercontent.com/fczuardi/dotfiles/master/.xinitrc
