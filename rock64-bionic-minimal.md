@@ -56,12 +56,29 @@ sudo apt install compton
 
 ## i3wm 
 ```
-sudo apt install i3 stterm suckless-tools i3status
+sudo apt install i3 suckless-tools i3status
 ```
 
 - .config/i3/config
 ```
 wget -O ~/.config/i3/config https://raw.githubusercontent.com/fczuardi/dotfiles/master/.i3/config
+```
+
+## terminals with truecolor
+
+### stterm
+
+Simple but with no scrollback.
+
+```
+sudo apt install stterm
+```
+
+### sakura
+
+Based on libvte, more batteries included (scrollback and Ctrl++ to increase font size for example)
+```
+sudo apt install sakura
 ```
 
 ## xinit
