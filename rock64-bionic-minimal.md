@@ -39,6 +39,12 @@ sudo apt install ffmpeg mpv
 rkmpv video1.mkv
 ```
 
+## thefuck
+```
+sudo apt install python3-dev python3-pip
+sudo pip3 install thefuck
+```
+
 # Desktop
 
 ## Xorg
