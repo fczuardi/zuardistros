@@ -1,4 +1,6 @@
-## base image (debian stretch nightly)
+## base image (debian stretch desktop)
 - https://www.armbian.com/rock64/
-  - https://dl.armbian.com/rock64/
-    - https://dl.armbian.com/rock64/nightly/Armbian_5.43.180417_Rock64_Debian_stretch_dev_4.16.0-rc6.7z
+  - https://dl.armbian.com/rock64/Debian_stretch_default_desktop.7z
+
+## wifi
+- https://docs.armbian.com/User-Guide_Getting-Started/
