@@ -18,3 +18,12 @@ sudo -H pip3 install --upgrade pip
 ```
 sudo -H pip3 install -e git+https://github.com/ekalinin/nodeenv.git#egg=nodeenv
 ```
+
+## i3wm base + sakura terminal
+```
+sudo apt install xserver-xorg x11-xserver-utils xinit i3 i3status dmenu stterm sakura
+wget https://raw.githubusercontent.com/fczuardi/dotfiles/master/.config/i3/config --output-document ~/.config/i3/config
+startx
+```
+
+## ssh-key
