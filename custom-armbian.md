@@ -1,0 +1,2 @@
+- armbian stretch dev rk3328
+- kernel: 4.4.128-rk3328
