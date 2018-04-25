@@ -13,3 +13,10 @@ surf
 firefox-esr
 chromium-browser
 ```
+
+## configs
+### /etc/systemd/system/getty.target.wants/getty@tty1.service
+
+```
+--autologin <username>
+```
