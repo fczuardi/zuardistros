@@ -7,9 +7,9 @@ i3 i3status i3lock suckless-tools
 
 stterm
 
+tigervnc-standalone-server
+
 surf
 firefox-esr
 chromium-browser
-
-tigervnc-standalone-server
 ```
