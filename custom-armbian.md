@@ -3,6 +3,13 @@
 
 ## packages
 ```
-i3 i3status i3lock suckless-tools stterm surf
-tigervnc-standalone-server --install-recommends
+i3 i3status i3lock suckless-tools
+
+stterm
+
+surf
+firefox-esr
+chromium-browser
+
+tigervnc-standalone-server
 ```
