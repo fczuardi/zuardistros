@@ -1,7 +1,7 @@
 - armbian stretch dev rk3328
 - kernels: 
-  - 4.4.128-rk3328
-  - 4.16.0-rc6-rk3328
+  - 4.4.128-rk3328 (hdmi + wifi works out of the box)
+  - 4.16.0-rc6-rk3328 (only remote access via ethernet)
 
 ## packages
 ```
