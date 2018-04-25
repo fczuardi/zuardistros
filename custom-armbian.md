@@ -17,6 +17,9 @@ stterm
 #vnc server
 tigervnc-standalone-server
 
+#vim
+silversearcher-ag
+
 #browsers
 surf
 firefox-esr
@@ -37,4 +40,13 @@ sudo reboot
 
 ```
 ExecStart=-/sbin/agetty --autologin <username --noclear %I $TERM
+```
+
+## vim
+```
+mkdir -p ~/.vim/undo ~/.vim/tmp
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+wget https://raw.githubusercontent.com/fczuardi/dotfiles/master/.vimrc -O ~/.vimrc
 ```
