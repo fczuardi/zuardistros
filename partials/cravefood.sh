@@ -5,7 +5,17 @@
 nodeenv node10
 source ./node10/bin/activate
 npm i -g yarn
+
 git clone git@github.com:CraveFood/farmblocks.git
 cd farmblocks
-yarn install
+yarn install --ignore-engines
+cd ~/
+
+
+# CraveFood Proprietary Projects
+# ----------------------------------------
+git clone git@github.com:CraveFood/webapp.git
+cd webapp
+npm install
+cd ~/
 
