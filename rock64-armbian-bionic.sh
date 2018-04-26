@@ -5,7 +5,8 @@ set -e
 # autologin
 # ----------------------------------------
 cp /lib/systemd/system/getty@.service /lib/systemd/system/getty@.service.bk
-sed -i -e "s/agetty -o/agetty --autologin $(whoami) -o/" /lib/systemd/system/getty@.service
+read -p "Username for autologin: " username
+sed -i -e "s/agetty -o/agetty --autologin ${username} -o/" /lib/systemd/system/getty@.service
 
 PACKAGES=()
 
