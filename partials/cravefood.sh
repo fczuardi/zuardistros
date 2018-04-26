@@ -2,7 +2,7 @@
 # ----------------------------------------
 # requires packages_python
 # requires nodeenv
-nodeenv node10
+nodeenv --node=10.0.0 node10
 source ./node10/bin/activate
 npm i -g yarn
 
