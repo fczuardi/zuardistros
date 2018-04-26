@@ -2,6 +2,10 @@
 
 set -e
 
+# autologin
+# ----------------------------------------
+# sed -i -e "s/agetty -o/agetty --autologin $(whoami) -o/" /etc/systemd/system/getty.target.wants/getty@tty1.service
+
 PACKAGES=()
 
 
