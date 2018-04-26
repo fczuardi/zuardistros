@@ -15,6 +15,7 @@ PACKAGES=()
 # ----------------------------------------
 PACKAGES+=(
   avahi-daemon
+  libnss-mdns
 )
 
 
