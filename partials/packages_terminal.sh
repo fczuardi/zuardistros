@@ -2,5 +2,6 @@
 # ----------------------------------------
 PACKAGES+=(
   stterm
+  sakura # comes with scrollback
 )
 
