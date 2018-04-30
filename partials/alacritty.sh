@@ -10,7 +10,7 @@ case ${installation_type:0:1} in
     ;;
     * )
       mkdir -p ~/.local/bin
-      curl -fLo ~/.local/bin/alacritty.gz https://github.com/fczuardi/alacritty/releases/download/0.1.0/alacritty.gz
+      curl -Lo ~/.local/bin/alacritty.gz https://github.com/fczuardi/alacritty/releases/download/0.1.0/alacritty.gz
       gunzip ~/.local/bin.alacritty.gz
     ;;
 esac
