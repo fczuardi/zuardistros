@@ -12,6 +12,7 @@ case ${installation_type:0:1} in
       mkdir -p ~/.local/bin
       curl -Lo ~/.local/bin/alacritty.gz https://github.com/fczuardi/alacritty/releases/download/0.1.0/alacritty.gz
       gzip -d ~/.local/bin.alacritty.gz
+      chmod +x ~/.local/bin.alacritty
     ;;
 esac
 
