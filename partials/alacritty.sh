@@ -1,7 +1,16 @@
 # Alacritty Terminal
 # ----------------------------------------
-# requires: rust/rustup
-rustup override set stable
-rustup update stable
-cargo install --git https://github.com/jwilm/alacritty
+read -p "Download [B]inary or Install from [S]ource? (B/s)" installation_type
+case ${installation_type:0:1} in
+    s|S )
+      # requires: rust/rustup
+      rustup override set stable
+      rustup update stable
+      cargo install --git https://github.com/jwilm/alacritty
+    ;;
+    * )
+      curl -fLo ~/.local/bin/alacritty.gz https://github.com/fczuardi/alacritty/releases/download/0.1.0/alacritty.gz
+      gunzip ~/.local/bin.alacritty.gz
+    ;;
+esac
 
