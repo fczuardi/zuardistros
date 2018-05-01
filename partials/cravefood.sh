@@ -5,6 +5,7 @@
 nodeenv --node=10.0.0 node10
 source ./node10/bin/activate
 npm i -g yarn
+sudo -H pip3 install pre-commit
 
 git clone git@github.com:CraveFood/farmblocks.git
 cd farmblocks
