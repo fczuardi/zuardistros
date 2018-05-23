@@ -9,5 +9,6 @@ Notes about setting up stuff on Windows 10
   - https://scoop.sh/
   - Node
     - https://nodejs.org/en/download/package-manager/#windows
+    - ? https://github.com/coreybutler/nvm-windows
   - Vim
-    - https://mobaxterm.mobatek.net/
+    - ? https://mobaxterm.mobatek.net/
