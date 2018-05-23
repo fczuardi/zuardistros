@@ -28,6 +28,7 @@ node-gyp requirements?
 
 ```
 choco install -y visualstudio2017buildtools
+choco install -y visualstudio2017-workload-vctools
 ```
 
 or
