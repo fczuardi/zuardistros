@@ -18,3 +18,8 @@ choco install -y 7zip.install
 choco install -y nodejs
 choco install -y python2
 ```
+
+nodejs version 9
+```
+ choco install nodejs --version 9.11.1
+```
