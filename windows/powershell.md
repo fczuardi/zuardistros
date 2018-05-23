@@ -15,7 +15,6 @@ git, nodejs
 ```
 choco install -y git -params '"/GitAndUnixToolsOnPath /WindowsTerminal"'
 choco install -y 7zip.install
-choco install -y visualstudio2017buildtools
 choco install -y nodejs
 choco install -y python2
 ```
@@ -24,3 +23,13 @@ nodejs version 9
 ```
  choco install nodejs --version 9.11.1
 ```
+
+node-gyp requirements? 
+
+```
+choco install -y visualstudio2017buildtools
+```
+
+or
+
+https://github.com/nodejs/node-gyp#on-windows
