@@ -15,6 +15,7 @@ git, nodejs
 ```
 choco install -y git -params '"/GitAndUnixToolsOnPath /WindowsTerminal"'
 choco install -y 7zip.install
+choco install -y visualstudio2017buildtools
 choco install -y nodejs
 choco install -y python2
 ```
