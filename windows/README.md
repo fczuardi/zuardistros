@@ -7,6 +7,9 @@ Notes about setting up stuff on Windows 10
     - https://channel9.msdn.com/Events/Build/2018/BRK3505 (video)
   - ? https://blog.cloudboost.io/setting-up-windows-for-web-development-28483d245a82
   - ? https://github.com/Microsoft/windows-dev-box-setup-scripts
+  - Terminal
+    - ? ConEmu
+      - ? https://conemu.github.io/en/BashOnWindows.html
 - Windows
   - https://chocolatey.org/
   - https://scoop.sh/
