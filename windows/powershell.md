@@ -34,3 +34,9 @@ choco install -y visualstudio2017-workload-vctools
 or
 
 https://github.com/nodejs/node-gyp#on-windows
+
+tell git to use proper line endings
+https://help.github.com/articles/dealing-with-line-endings/
+```
+git config --global core.autocrlf true
+```
