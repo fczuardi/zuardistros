@@ -13,7 +13,8 @@ choco
 
 git, nodejs
 ```
-choco install -y git -params '"/GitAndUnixToolsOnPath /WindowsTerminal"'
+choco install -y git -params '"/GitAndUnixToolsOnPath /WindowsTerminal /NoAutoCrlf"'
+git config --global core.autocrlf input
 choco install -y 7zip.install
 choco install -y nodejs
 choco install -y python2
