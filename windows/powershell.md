@@ -36,8 +36,14 @@ or
 
 https://github.com/nodejs/node-gyp#on-windows
 
-tell git to use proper line endings
+? tell git to use proper line endings
 https://help.github.com/articles/dealing-with-line-endings/
 ```
-git config --global core.autocrlf true
+git config --global core.autocrlf input
+```
+
+
+xserver for GUI apps
+```
+choco install vcxsrv
 ```
