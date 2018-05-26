@@ -10,3 +10,12 @@ export DISPLAY=0.0
 ```
 umask 022
 ```
+
+### Partials installed
+- Python, pip, etc https://github.com/fczuardi/zuardistros/blob/master/partials/packages_python.sh
+- Vim with clipboard and ag https://github.com/fczuardi/zuardistros/blob/master/partials/packages_vim.sh
+
+#### Packages
+
+#### Configs
+- Less env var https://github.com/fczuardi/zuardistros/blob/master/partials/profile_less.sh
