@@ -6,7 +6,7 @@ Mount Win drive with better filesystem permissions metadata:
 ```
 export DISPLAY=0.0
 ```
-- mkdir with better permissions
+- mkdir with better permissions ( https://zzz.buzz/2016/10/09/notes-on-bash-on-ubuntu-on-windows-windows-subsystem-for-linux/#why-newly-created-file-has-mode-666-and-directory-777)
 ```
 umask 022
 ```
