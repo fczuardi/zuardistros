@@ -19,3 +19,4 @@ umask 022
 
 #### Configs
 - Less env var https://github.com/fczuardi/zuardistros/blob/master/partials/profile_less.sh
+- nodeenv (nodes 9.11.1 and 10.2.1) https://github.com/fczuardi/zuardistros/blob/master/partials/nodeenv.sh
