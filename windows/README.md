@@ -20,3 +20,6 @@ Notes about setting up stuff on Windows 10
     - ? https://github.com/coreybutler/nvm-windows
   - Vim
     - ? https://mobaxterm.mobatek.net/
+    
+- Dual boot
+  - https://itsfoss.com/dual-boot-antergos-windows-uefi/
