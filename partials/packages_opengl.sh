@@ -3,7 +3,6 @@
 PACKAGES+=(
   mesa-utils
   mesa-utils-extra
-  xserver-xorg-video-armsoc
   libdrm-rockchip1
   libmali-rk-utgard-450-r7p0
   gstreamer1.0-rockchip1
