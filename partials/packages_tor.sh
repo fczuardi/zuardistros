@@ -3,4 +3,6 @@
 # ----------------------------------------
 PACKAGES+=(
   apt-transport-https
+  tor
+  deb.torproject.org-keyring
 )
