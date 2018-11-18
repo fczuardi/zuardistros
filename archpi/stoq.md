@@ -154,7 +154,7 @@ cd ..
 
 ### initialize a stoq database
 ```
-stoqdbadmin init --helo
+stoqdbadmin init --help
 stoqdbadmin -ev
 ```
 

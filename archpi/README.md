@@ -53,7 +53,7 @@ IgnorePkg = postgresql*
 ```
 
 This is important because major postgresql upgrades can change the db schema and break existing
-apps that uses postgress to manage thei dbs.
+apps that uses postgress to manage their dbs.
 
 #### Generate locales
 Arch for ARM comes pretty raw, if you list the locales with the command `locale -a` the list will
