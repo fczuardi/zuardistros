@@ -118,7 +118,7 @@ Inside the python3 virtualenv do:
 
 ```
 pip install --upgrade pip
-pip install future
+pip install future service_identity
 pip install https://launchpad.net/~stoq-maintainers/+archive/ubuntu/unstable/+sourcefiles/storm/0.20.0.100-2~py3-1bionic/storm_0.20.0.100-2~py3-1bionic.tar.gz
 ```
 
