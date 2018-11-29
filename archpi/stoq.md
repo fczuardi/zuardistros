@@ -81,6 +81,9 @@ swig
 libxslt
 ```
 
+#### Ubuntu
+A similar list of packages for Ubuntu 18.04.1 LTS can be found here: [packages for installing stoq-server on ubuntu](https://github.com/fczuardi/zuardistros/blob/master/partials/packages_stoq.sh)
+
 ## stoq user
 
 ### create stoq user and log with her
