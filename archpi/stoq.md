@@ -81,6 +81,9 @@ swig
 libxslt
 ```
 
+#### Ubuntu
+A similar list of packages for Ubuntu 18.04.1 LTS can be found here: [packages for installing stoq-server on ubuntu](https://github.com/fczuardi/zuardistros/blob/master/partials/packages_stoq.sh)
+
 ## stoq user
 
 ### create stoq user and log with her
@@ -118,7 +121,7 @@ Inside the python3 virtualenv do:
 
 ```
 pip install --upgrade pip
-pip install future
+pip install future service_identity
 pip install https://launchpad.net/~stoq-maintainers/+archive/ubuntu/unstable/+sourcefiles/storm/0.20.0.100-2~py3-1bionic/storm_0.20.0.100-2~py3-1bionic.tar.gz
 ```
 
@@ -155,7 +158,7 @@ cd ..
 ### initialize a stoq database
 ```
 stoqdbadmin init --help
-stoqdbadmin -ev
+stoqdbadmin init -ev
 ```
 
 
