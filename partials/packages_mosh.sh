@@ -1,0 +1,6 @@
+# terminal emulators
+# ----------------------------------------
+PACKAGES+=(
+    mosh
+)
+
