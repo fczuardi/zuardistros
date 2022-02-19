@@ -20,7 +20,7 @@ exit
 
 ```
 systemctl status bitcoind.service
-sudo systemctl restart bitcoind.servicehttps://www.hardkernel.com/shop/odroid-hc1-home-cloud-one/
+sudo systemctl restart bitcoind.service
 ```
 
 
@@ -65,3 +65,22 @@ gpg --keyserver hkps://keys.openpgp.org --refresh-keys
 gpg --verify SHA256SUMS.asc
 ```
 
+Untar
+
+https://bitcoin.org/en/full-node#linux-instructions
+
+```
+tar xzf bitcoin-22.0.tar.gz
+```
+
+Compile
+
+```
+cd bitcoin-22.0/
+./autogen.sh
+./configure --enable-upnp-default --disable-wallet
+make -j2
+sudo make install
+sudo systemctl restart bitcoind.service
+
+```
