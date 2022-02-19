@@ -61,6 +61,7 @@ https://github.com/bitcoin/bitcoin/tree/master/contrib/builder-keys
 wget https://raw.githubusercontent.com/bitcoin/bitcoin/master/contrib/builder-keys/keys.txt
 while read fingerprint keyholder_name; do gpg --keyserver hkps://keys.openpgp.org --recv-keys ${fingerprint}; done < ./keys.txt
 gpg --refresh-keys
+gpg --keyserver hkps://keys.openpgp.org --refresh-keys 
 gpg --verify SHA256SUMS.asc
 ```
 
