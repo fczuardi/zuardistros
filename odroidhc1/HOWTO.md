@@ -27,4 +27,4 @@ sudo systemctl restart bitcoind.servicehttps://www.hardkernel.com/shop/odroid-hc
 
 # Update Bitcoin core
 
-TBD
+TBD something similar to https://github.com/fczuardi/zuardistros/blob/7941014a3e64f267c156a392df24f8b11ac6d1eb/raspbian-lite-sept-2017.md#build
