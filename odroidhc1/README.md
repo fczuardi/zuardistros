@@ -15,5 +15,7 @@ Login via ssh:
   - `sudo pacman -S socat`
 - na linha com o hostname .onion da maquina no `~/.ssh/config` de quem for conectar:
   - `ProxyCommand /usr/bin/socat STDIO SOCKS4A:localhost:%h:%p,socksport=9050` 
+- finalmente `ssh -vv <username>@XXXXXXXXXXXX.onion`
 
-(ver o username e endere
+
+(ver o username e endereço onion no sd card da maquina)
